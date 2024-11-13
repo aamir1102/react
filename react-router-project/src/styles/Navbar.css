@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+}
+
+ul {
+  display: flex;
+  gap: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.active-link {
+  color: red;
+  border: 1px solid black;
+}
